@@ -6,13 +6,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "@quasar/extras": "^1.16.8",
+    "axios": "^1.6.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@quasar/vite-plugin": "^1.6.0",
     "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "prettier": "3.1.0",
+    "sass": "^1.69.5",
     "vite": "^4.4.5"
   }
 }
